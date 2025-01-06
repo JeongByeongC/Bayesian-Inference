@@ -35,4 +35,21 @@ This repository includes examples and tools for applying Bayesian inference to v
 + Uses Bayesian inference to estimate model parameters and assess their uncertainty.
 
 
-*** Files and Descriptions
+### Files and Descriptions
+
++ bishop_example.m: Demonstrates parameter estimation for a simple linear equation using Bayesian inference. Includes two sections:
+
+	•	Known parameters ( $\alpha$  and  $\beta$ ) for understanding fitting with varying data quantities.
+
+
+	•	Unknown parameters ( $\alpha$  and  $\beta$ ) with minimal data to demonstrate inference accuracy.
+
+	•	likelihood.m: Generates the likelihood function for visualizing the parameter space.
+
+
+	•	posterior.m: Computes posterior variance and standard deviation for Bayesian updates.
+
+
+	•	posterior_predictive.m: Generates predictions using posterior mean and variance.
+
+
