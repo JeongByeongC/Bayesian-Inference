@@ -71,11 +71,15 @@ This repository includes examples and tools for applying Bayesian inference to v
  
  		$function(t+1) = (1 - w_1) \cdot function(t) + w_1 \cdot use(t)$$
 
+---
+
 ### Dependencies
 
 + MATLAB R2020b or later
 
 + No additional toolboxes are required
+
+---
 
 ### Reference
 
