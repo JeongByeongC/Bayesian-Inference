@@ -59,6 +59,9 @@ This repository includes examples and tools for applying Bayesian inference to v
 
 + f.m: Linear equation function for Bishop example.
 
+![lik_post_sample_variance](https://github.com/user-attachments/assets/469c3bab-5689-4d1f-a5ac-36c0e27ee71d)
+
+
 2. Function and Use Model
 
 + function_and_use.m: Implements models for functional recovery and use dynamics, including:
