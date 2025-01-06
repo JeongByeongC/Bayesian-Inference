@@ -2,7 +2,6 @@
 
 This repository contains MATLAB code for Bayesian inference and modeling, inspired by Pattern Recognition and Machine Learning (Bishop, 2006) and the research paper “Use It and Improve It or Lose It: Interactions between Arm Function and Use in Humans Post-stroke” by Yukikazu Hidaka et al. The project demonstrates Bayesian parameter estimation for linear equations and extends the concept to function and use models in the context of human behavior and recovery.
 
----
 
 ## Overview
 
@@ -21,3 +20,16 @@ This repository includes examples and tools for applying Bayesian inference to v
  + Shows how data quantity affects the accuracy of parameter estimation.
 
  + Includes posterior distribution visualization and likelihood calculations.
+
+---
+
+  2. Function and Use Modeling:
+
++ Implements models for human functional recovery and use dynamics based on the Yukikazu Hidaka et al. study.
+
++ Provides tools to esimate parameters for:
+    + **Function Model**: Models changes in functional ability over time.
+ 
+    + **Use Model**: Describes the relationship between functional use and success strength.
+ 
+  + Uses Bayesian inference to estimate model parameters and assess their uncertainty.
