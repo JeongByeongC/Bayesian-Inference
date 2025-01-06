@@ -21,7 +21,6 @@ This repository includes examples and tools for applying Bayesian inference to v
 
  + Includes posterior distribution visualization and likelihood calculations.
 
----
 
   2. Function and Use Modeling:
 
@@ -34,22 +33,36 @@ This repository includes examples and tools for applying Bayesian inference to v
  
 + Uses Bayesian inference to estimate model parameters and assess their uncertainty.
 
+---
 
 ### Files and Descriptions
+
+1. Bishop Example
 
 + bishop_example.m: Demonstrates parameter estimation for a simple linear equation using Bayesian inference. Includes two sections:
 
 	+ Known parameters ( $\alpha$  and  $\beta$ ) for understanding fitting with varying data quantities.
 
-
 	+ Unknown parameters ( $\alpha$  and  $\beta$ ) with minimal data to demonstrate inference accuracy.
 
-	+ likelihood.m: Generates the likelihood function for visualizing the parameter space.
++ likelihood.m: Generates the likelihood function for visualizing the parameter space.
 
++ posterior.m: Computes posterior variance and standard deviation for Bayesian updates.
 
-	+ posterior.m: Computes posterior variance and standard deviation for Bayesian updates.
++ posterior_predictive.m: Generates predictions using posterior mean and variance.
 
++ fit.m: Bayesian inference implementation for parameter updates.
 
-	•	posterior_predictive.m: Generates predictions using posterior mean and variance.
++ isclose.m: Checks parameter stability by assessing small changes during updates.
+
++ f.m: Linear equation function for Bishop example.
+
+2. Function and Use Model
+
++ function_and_use.m: Implements models for functional recovery and use dynamics, including:
+
+	+ Use Model: $$\text{use}(t+1) = w_1 \cdot \text{use}(t) + w_2 \cdot \text{function}(t) + w_3 \cdot \text{success\_strength}(t) + w_4$$
+
+	+ Function Model: $$\text{function}(t+1) = (1 - w_1) \cdot \text{function}(t) + w_1 \cdot \text{use}(t)$$
 
 
