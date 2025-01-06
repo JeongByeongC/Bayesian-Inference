@@ -63,8 +63,12 @@ This repository includes examples and tools for applying Bayesian inference to v
 
 	+ Use Model:
  
-	$use(t+1) = w_1 \cdot use(t) + w_2 \cdot function(t) + w_3$
+		$use(t+1) = w_1 \cdot use(t) + w_2 \cdot function(t) + w_3 \cdot success_strength(t) + w_4$
 
-	+ Function Model: $$\text{function}(t+1) = (1 - w_1) \cdot \text{function}(t) + w_1 \cdot \text{use}(t)$$
+	+ Function Model:
+ 
+ 		$function(t+1) = (1 - w_1) \cdot function(t) + w_1 \cdot use(t)$$
+
+ 
 
 
