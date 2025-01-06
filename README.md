@@ -85,12 +85,12 @@ This repository includes examples and tools for applying Bayesian inference to v
 
 1. Pattern Recognition and Machine Learning
 
-+ Author: Christopher Bishop
+	+ Author: Christopher Bishop
 
-+ Publisher: Springer, 2006
+	+ Publisher: Springer, 2006
 
 2. Use It and Improve It or Lose It: Interactions between Arm Function and Use in Humans Post-stroke
 
-+ Authors: Yukikazu Hidaka, Cheol E Han, Steven L Wolf, Carolee J Winstein, Nicolas Schweighofer
+	+ Authors: Yukikazu Hidaka, Cheol E Han, Steven L Wolf, Carolee J Winstein, Nicolas Schweighofer
 
-+ Journal: PLoS Computational Biology, 2012
+	+ Journal: PLoS Computational Biology, 2012
