@@ -39,15 +39,15 @@ This repository includes examples and tools for applying Bayesian inference to v
 
 + bishop_example.m: Demonstrates parameter estimation for a simple linear equation using Bayesian inference. Includes two sections:
 
-	•	Known parameters ( $\alpha$  and  $\beta$ ) for understanding fitting with varying data quantities.
+	+ Known parameters ( $\alpha$  and  $\beta$ ) for understanding fitting with varying data quantities.
 
 
-	•	Unknown parameters ( $\alpha$  and  $\beta$ ) with minimal data to demonstrate inference accuracy.
+	+ Unknown parameters ( $\alpha$  and  $\beta$ ) with minimal data to demonstrate inference accuracy.
 
-	•	likelihood.m: Generates the likelihood function for visualizing the parameter space.
+	+ likelihood.m: Generates the likelihood function for visualizing the parameter space.
 
 
-	•	posterior.m: Computes posterior variance and standard deviation for Bayesian updates.
+	+ posterior.m: Computes posterior variance and standard deviation for Bayesian updates.
 
 
 	•	posterior_predictive.m: Generates predictions using posterior mean and variance.
