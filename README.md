@@ -32,4 +32,7 @@ This repository includes examples and tools for applying Bayesian inference to v
  
     + **Use Model**: Describes the relationship between functional use and success strength.
  
-  + Uses Bayesian inference to estimate model parameters and assess their uncertainty.
++ Uses Bayesian inference to estimate model parameters and assess their uncertainty.
+
+
+*** Files and Descriptions
