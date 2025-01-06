@@ -11,10 +11,7 @@ This repository includes examples and tools for applying Bayesian inference to v
   1. Bishop Example:
 	+ Demonstrates Bayesian inference for parameter estimation in a linear equation:
 
-$y = w_0 + w_1x$
-
+ $y = w_0 + w_1x$
 	+ Incorporates Gaussian noise for data variability.
-
  	+ Shows how data quantity affects the accuracy of parameter estimation.
-
   	+ Includes posterior distribution visualization and likelihood calculations.
