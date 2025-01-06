@@ -7,6 +7,8 @@ This repository contains MATLAB code for Bayesian inference and modeling, inspir
 
 This repository includes examples and tools for applying Bayesian inference to various models. The primary goal is to provide an understanding of how Bayesian approaches can be applied to infer parameters, assess uncertainty, and model interactions between functional use and recovery dynamics.
 
+---
+
 ### Key Features
 
   1. Bishop Example:
@@ -69,6 +71,22 @@ This repository includes examples and tools for applying Bayesian inference to v
  
  		$function(t+1) = (1 - w_1) \cdot function(t) + w_1 \cdot use(t)$$
 
- 
+### Dependencies
 
++ MATLAB R2020b or later
 
++ No additional toolboxes are required
+
+### Reference
+
+1. Pattern Recognition and Machine Learning
+
++ Author: Christopher Bishop
+
++ Publisher: Springer, 2006
+
+2. Use It and Improve It or Lose It: Interactions between Arm Function and Use in Humans Post-stroke
+
++ Authors: Yukikazu Hidaka, Cheol E Han, Steven L Wolf, Carolee J Winstein, Nicolas Schweighofer
+
++ Journal: PLoS Computational Biology, 2012
