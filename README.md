@@ -61,7 +61,10 @@ This repository includes examples and tools for applying Bayesian inference to v
 
 + function_and_use.m: Implements models for functional recovery and use dynamics, including:
 
-	+ Use Model: $$\text{use}(t+1) = w_1 \cdot \text{use}(t) + w_2 \cdot \text{function}(t) + w_3 \cdot \text{success\_strength}(t) + w_4$$
+	+ Use Model:
+ 
+	$use_(t+1) = w_1
+  	$$\text{use}(t+1) = w_1 \cdot \text{use}(t) + w_2 \cdot \text{function}(t) + w_3 \cdot \text{success\_strength}(t) + w_4$$
 
 	+ Function Model: $$\text{function}(t+1) = (1 - w_1) \cdot \text{function}(t) + w_1 \cdot \text{use}(t)$$
 
